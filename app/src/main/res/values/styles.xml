@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <!-- Application theme. -->
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/material_primary</item>
+        <item name="colorPrimaryDark">@color/material_primary_dark</item>
+        <item name="colorAccent">@color/material_accent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlHighlight">@color/white_button_overlay</item>
+    </style>
+
+    <!-- Transparent Theme -->
+
+    <style name="Theme.Toolbar" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>
